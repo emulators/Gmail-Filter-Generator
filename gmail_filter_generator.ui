@@ -1,0 +1,224 @@
+# GUIBUILDER FILE Build 146
+# Created: 2019-08-13 13:13:40 by GUI Builder Build 146
+language tkinter 8.4
+widget {Tk frame} f {
+	geometry min_column {2 2 9 2 95 2}
+	geometry min_row {47 40 179 29}
+	geometry pad_column {0 0 0 0 0 0}
+	geometry pad_row {0 0 0 0}
+	geometry resize_column {0 0 0 0 0 0}
+	geometry resize_row {0 0 1 0}
+	geometry weight_column {0 0 0 0 0 0}
+	geometry weight_row {0 0 0 0}
+	data GROUP Tk
+	data ID {}
+	data MASTER {}
+	data TYPE {Tk frame}
+	data level 0
+}
+widget {Tk labelframe} _labelframe_3 {
+	configure -text {Enter email address to filter}
+	geometry -column 1
+	geometry -columnspan 6
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky news
+	geometry min_column {297 40}
+	geometry min_row 40
+	geometry pad_column {0 0}
+	geometry pad_row 0
+	geometry resize_column {0 0}
+	geometry resize_row 0
+	geometry weight_column {0 0}
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _labelframe_3
+	data MASTER {}
+	data TYPE {Tk labelframe}
+	data level 1
+}
+widget {Tk labelframe} _labelframe_4 {
+	configure -text Message
+	geometry -column 1
+	geometry -columnspan 6
+	geometry -row 2
+	geometry -rowspan 1
+	geometry -sticky news
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _labelframe_4
+	data MASTER {}
+	data TYPE {Tk labelframe}
+	data level 1
+}
+widget {Tk entry} _entry_4 {
+	configure -width 0
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky ew
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _txt_email
+	data MASTER _labelframe_3
+	data TYPE {Tk entry}
+}
+widget {Tk button} _button_5 {
+	configure -text Add
+	geometry -column 2
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky {}
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _btn_add
+	data MASTER _labelframe_3
+	data TYPE {Tk button}
+}
+widget {Tk label} _label_1 {
+	configure -anchor nw
+	configure -justify left
+	configure -text Ready
+	geometry -column 1
+	geometry -columnspan 1
+	geometry -row 1
+	geometry -rowspan 1
+	geometry -sticky nsew
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _lbl_status
+	data MASTER _labelframe_4
+	data TYPE {Tk label}
+}
+widget {Tk listbox} _listbox_1 {
+	configure -height 0
+	configure -width 0
+	configure -yscrollcommand _scrollbar_1.set
+	geometry -column 1
+	geometry -columnspan 5
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky news
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _listbox_email
+	data MASTER {}
+	data TYPE {Tk listbox}
+}
+widget {Tk button} _button_1 {
+	configure -text {Load Filter}
+	geometry -column 1
+	geometry -columnspan 2
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _btn_load
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_2 {
+	configure -text {Save Filter}
+	geometry -column 3
+	geometry -columnspan 2
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _btn_export
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk button} _button_3 {
+	configure -text Help
+	geometry -column 5
+	geometry -columnspan 2
+	geometry -row 4
+	geometry -rowspan 1
+	geometry -sticky nsew
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _btn_help
+	data MASTER {}
+	data TYPE {Tk button}
+}
+widget {Tk scrollbar} _scrollbar_1 {
+	geometry -column 6
+	geometry -columnspan 1
+	geometry -row 3
+	geometry -rowspan 1
+	geometry -sticky nsw
+	geometry min_column 40
+	geometry min_row 40
+	geometry pad_column 0
+	geometry pad_row 0
+	geometry resize_column 0
+	geometry resize_row 0
+	geometry weight_column 0
+	geometry weight_row 0
+	data GROUP Tk
+	data ID _scrollbar_1
+	data MASTER {}
+	data TYPE {Tk scrollbar}
+}
+

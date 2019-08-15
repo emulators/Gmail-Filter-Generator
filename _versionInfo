@@ -1,0 +1,12 @@
+--Usage--
+Input email directly and press "Add" button, email will be put into the list. "Save Filter" button will export the list into a text file. Open this text file and copy the content inside, paste it to Gmail filter and do whatever you want when the incoming mail matches this filter. 
+
+--About--
+Author: Yu-Cheng Chang
+version info:
+
+v20190809
+Prototype finished.
+
+v20190813
+Tweaks, scrollbars added.
